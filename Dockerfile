@@ -1,0 +1,1 @@
+# Simple Dockerfile for backend\nFROM python:3.11-slim\nWORKDIR /app\nCOPY backend/requirements.txt /app/\nRUN pip install -r requirements.txt\nCOPY backend /app/backend\nCMD ["uvicorn","backend.app.main:app","--host","0.0.0.0","--port","8000"]\n

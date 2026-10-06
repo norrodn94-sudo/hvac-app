@@ -1,0 +1,1 @@
+import React from 'react'\nimport { createRoot } from 'react-dom/client'\n\nfunction App(){\n  return <div style={{padding:20}}>HVAC BuildOps — Frontend Skeleton</div>\n}\n\ncreateRoot(document.getElementById('root')).render(<App />)\n

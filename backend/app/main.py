@@ -1,7 +1,1 @@
-from fastapi import FastAPI
-
-app = FastAPI(title="HVAC BuildOps API")
-
-@app.get("/health")
-async def health():
-    return {"status": "ok"}
+from fastapi import FastAPI\n\napp = FastAPI(title=\"HVAC BuildOps API\")\n\n@app.get(\"/health\")\nasync def health():\n    return {\"status\": \"ok\"}\n\n# TODO: add auth, customers, leads, jobs routers\n

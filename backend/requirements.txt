@@ -1,0 +1,1 @@
+fastapi\nuvicorn[standard]\nSQLAlchemy\nasyncpg\npsycopg2-binary\npython-dotenv\ncelery[redis]\n"
