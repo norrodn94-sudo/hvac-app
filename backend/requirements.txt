@@ -1,1 +1,8 @@
-fastapi\nuvicorn[standard]\nSQLAlchemy\nasyncpg\npsycopg2-binary\npython-dotenv\ncelery[redis]\n"
+fastapi
+uvicorn[standard]
+SQLAlchemy
+asyncpg
+pydantic
+alembic
+python-dotenv
+celery[redis]
